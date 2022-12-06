@@ -10,9 +10,12 @@ Face mask detection yolov4 tiny
 
 2.加了一些打印当前工作目录的命令
 
-使用：
+3.保存图片的按钮加上汉字说明
 
-1.直接在Colab中运行`yolov4_tiny.ipynb`
+使用：
+1.参照原项目中的步骤下载数据集并重命名
+
+1.在Colab中运行`yolov4_tiny.ipynb`
 
 2.训练过程太长，打开`/dada `下的 `cfg` 文件把`max_batches = 6000` 改小一点
 
