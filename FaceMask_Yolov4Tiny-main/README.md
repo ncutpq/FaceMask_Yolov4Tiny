@@ -1,7 +1,6 @@
-# FaceMask_Yolov4Tiny
-Face mask detection yolov4 tiny
+FaceMask_Yolov4Tiny代码调试 Face mask detection yolov4 tiny
 
-[原项目地址：](https://github.com/FlowxD/FaceMask_Yolov4Tiny)
+原项目地址：
 
 改动：
 
@@ -9,10 +8,14 @@ Face mask detection yolov4 tiny
 
 2.加了一些打印当前工作目录的命令
 
+3.保存图片的按钮加上汉字说明
+
 使用：
 
-1.直接在Colab中运行`yolov4_tiny.ipynb`
+1.参照原项目中的步骤下载数据集并重命名
 
-2.训练过程太长，打开`/dada `下的 `cfg` 文件把`max_batches = 6000` 改小一点
+2.在Colab中运行yolov4_tiny.ipynb
+
+3.训练过程太长，打开/dada 下的 cfg 文件把max_batches = 6000 改小一点
 
 4.打开摄像头时点左上角按钮保存图片
